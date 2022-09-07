@@ -23,9 +23,13 @@ We will not get it this way because the asynchronous functions will return us a 
 
 5) [express middleware](https://github.com/orabenesh/chaseLabs/blob/2324a2faedf0e6f32784f710c25847858fc1cbea/answers/answer5.js)
 
-6)\
+6)
 a. there is no 5th element inside container\
 b. li.mango{\
 }\
 c. [type~=green]{\
-}\
+}
+
+7)  *GET /users?ids={ids} - Get users by ids list (or instead of query list of ids to send it in request body)\
+    *PUT /users/{id} - Replace a user by id (the new user object will be sent in request body)\
+    *POST /users/list - Create new users (a list of users will be sent in request body)\
