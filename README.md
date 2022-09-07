@@ -30,6 +30,11 @@ b. li.mango{\
 c. [type~=green]{\
 }
 
-7)  *GET /users?ids={ids} - Get users by ids list (or instead of query list of ids to send it in request body)\
+7) 
+    *GET /users?ids={ids} - Get users by ids list (or instead of query list of ids to send it in request body)\
     *PUT /users/{id} - Replace a user by id (the new user object will be sent in request body)\
-    *POST /users/list - Create new users (a list of users will be sent in request body)\
+    *POST /users/list - Create new users (a list of users will be sent in request body)
+8)  access token is a string that user uses to make requests from resource server,\
+    when he's logged in he get it and thats what give him the ability to access the protected resource.\
+    but because the token is expired after a certain time we use refresh token:\
+    refresh token is a credential string that enable the user get a new token without needing of new authorization when token is expired.
