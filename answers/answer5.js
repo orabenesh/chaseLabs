@@ -7,7 +7,6 @@ async function hash(string) {
     return await createHash('sha256').update(string).digest('hex');
 }
 const hashMiddleware = async (req, res, next) => {
-    debugger
     try {
         const{message}=req.query;
         const hash256 = await hash(message)
