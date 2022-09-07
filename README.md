@@ -12,7 +12,7 @@
 advantages and disadvantages of both implementations:
 
 3)
-[to the code](https://github.com/orabenesh/chaseLabs/blob/fd568e4fedb9c9ea6da5159d3a0a8c555b70e4af/answer3.tsx)
+[to the code](https://github.com/orabenesh/chaseLabs/blob/63e954ab9aed5339958a7b5080df718edbd7d71d/answer3.html)
 
 4)
 If the goal is to get an array full of numbers returned from the server
