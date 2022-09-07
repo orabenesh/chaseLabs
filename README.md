@@ -11,8 +11,7 @@
 [to the code](https://github.com/orabenesh/chaseLabs/blob/9eee7d5e0cde06c28193c9b79f355349ee786907/answer2.tsx)\
 advantages and disadvantages of both implementations:
 
-3)
-[to the code](https://github.com/orabenesh/chaseLabs/blob/63e954ab9aed5339958a7b5080df718edbd7d71d/answer3.html)
+3) [to the code](https://github.com/orabenesh/chaseLabs/blob/63e954ab9aed5339958a7b5080df718edbd7d71d/answer3.html)
 
 4)
 If the goal is to get an array full of numbers returned from the server
@@ -20,5 +19,5 @@ We will not get it this way because the asynchronous functions will return us a 
 
 [solving it](https://github.com/orabenesh/chaseLabs/blob/fd568e4fedb9c9ea6da5159d3a0a8c555b70e4af/answer4.tsx)
 
-5) [express middleware]()
+5) [express middleware](https://github.com/orabenesh/chaseLabs/blob/2324a2faedf0e6f32784f710c25847858fc1cbea/answers/answer5.js)
 
