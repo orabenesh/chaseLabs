@@ -13,12 +13,9 @@
 [to the code](https://github.com/orabenesh/chaseLabs/blob/9eee7d5e0cde06c28193c9b79f355349ee786907/answer2.tsx)\
 advantages and disadvantages of both implementations:
 
-3)
-
-[to the code](https://github.com/orabenesh/chaseLabs/blob/63e954ab9aed5339958a7b5080df718edbd7d71d/answer3.html)
+3) [to the code](https://github.com/orabenesh/chaseLabs/blob/63e954ab9aed5339958a7b5080df718edbd7d71d/answer3.html)
 
 4)
-
 If the goal is to get an array full of numbers returned from the server
 We will not get it this way because the asynchronous functions will return us a promise and not a number and at the end of the operations we will get an array of promises and the second loop that waits for every value in the array of promises will not help.
 
@@ -27,10 +24,8 @@ We will not get it this way because the asynchronous functions will return us a 
 5) [express middleware](https://github.com/orabenesh/chaseLabs/blob/2324a2faedf0e6f32784f710c25847858fc1cbea/answers/answer5.js)
 
 6)\
-a. there is no 5th element inside container
-b. li.mango{
-
-}
-c. [type~=green]{
-
-}
+a. there is no 5th element inside container\
+b. li.mango{\
+}\
+c. [type~=green]{\
+}\
