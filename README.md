@@ -5,7 +5,7 @@
 1)
 
 **Async function return Promise, we'll have to call myFunc function with await:**\
-[to the code](https://github.com/orabenesh/chaseLabs/blob/6679c00fe9832e312600be1a347dd021a1daf3fd/answer1.tsx#L14)
+[to the code](https://github.com/orabenesh/chaseLabs/blob/515e5bc660943bd0bb9499fd8aac160ce304a734/answers/answer1.tsx)
 
 2)
 
