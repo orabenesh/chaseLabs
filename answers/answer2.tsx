@@ -10,7 +10,7 @@ function withRecursion(node: INode) {//solved it as pre order traversal
     withRecursion(child);
   });
 }
-function withoutRecursion(node: INode) {//solved it as post order traversal
+function withoutRecursion(node: INode) {
   const stack: INode[] = [];
   stack.push(node);
   while (stack.length) {
