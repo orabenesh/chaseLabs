@@ -12,6 +12,10 @@
 **2 methods for solving:**\
 [to the code](https://github.com/orabenesh/chaseLabs/blob/9eee7d5e0cde06c28193c9b79f355349ee786907/answer2.tsx)\
 advantages and disadvantages of both implementations:
+Recursion method:
+time complexity is O(n+m) but we dont have to store any data.
+Iterative method:
+time complexity is O(n) but we have space complexity of O(n) too.
 
 3) [to the code](https://github.com/orabenesh/chaseLabs/blob/63e954ab9aed5339958a7b5080df718edbd7d71d/answer3.html)
 

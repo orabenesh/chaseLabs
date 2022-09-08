@@ -3,14 +3,14 @@ interface INode {
   children: INode[];
 }
 
-function withRecursion(node: INode) {
-  console.log(node.name);
-  if (node.children?.length < 1) return;
-  node.children.forEach((child: INode) => {
+function withRecursion(node: INode) {//solved it as pre order traversal
+  console.log(node?.name);
+  if (node?.children.length < 1) return;
+  node?.children.forEach((child: INode) => {
     withRecursion(child);
   });
 }
-function withoutRecursion(node: INode) {
+function withoutRecursion(node: INode) {//solved it as post order traversal
   const stack: INode[] = [];
   stack.push(node);
   while (stack.length) {
