@@ -10,9 +10,10 @@
     <div id="container" class="className"></div>
     <script>
         let element=document.getElementById("container");
-        let str='<div class="container" id="container"></div>';
-        let pattern="";
+        let str='<div class="className_string" id="id_string"></div>';
+        let pattern=/(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g;
         let result=str.match(pattern);
+        console.log(result); 
         element.innerHTML = result;
     </script>
 </body>
